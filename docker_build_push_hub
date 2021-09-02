@@ -1,0 +1,4 @@
+#! /bin/bash
+docker build -t 858752782/infra_actions:2021 .
+docker push 858752782/infra_actions:2021
+#docker login -u 858752782

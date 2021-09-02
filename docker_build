@@ -1,0 +1,4 @@
+#! /bin/bash
+docker build . # Соберёт образ на основе Dockerfile
+docker image ls # Отобразит информацию о всех образах
+#docker run -p 5000:5000 <IMAGE ID> # Запустит контейнер из образа с <IMAGE ID>

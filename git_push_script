@@ -3,5 +3,6 @@ pwd
 git add --all
 D=$(date  +%Y-%m-%d)
 T=$(date +%H:%M:%S)
-git commit -m 'Auto commit $D $T'
+
+git commit -m 'Auto commit'
 git push
