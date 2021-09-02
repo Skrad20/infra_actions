@@ -1,8 +1,6 @@
 #! /bin/bash
 pwd
 git add --all
-D=$(date  +%Y-%m-%d)
-T=$(date +%H:%M:%S)
-
 git commit -m 'Auto commit'
 git push
+echo 'Загрузка на гит выполнена'
